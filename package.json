@@ -1,0 +1,38 @@
+{
+  "name": "butane-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexcarpenter/butane-ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexcarpenter/butane-ui/issues"
+  },
+  "homepage": "https://github.com/alexcarpenter/butane-ui#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-info": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "@types/jest": "^26.0.4",
+    "babel-loader": "^8.1.0",
+    "jest": "^26.1.0",
+    "react": "^16.13.1",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "ts-jest": "^26.1.1",
+    "ts-loader": "^8.0.0",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {}
+}
