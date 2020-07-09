@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "storybook": "start-storybook -p 6006",
+    "dev": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
   "repository": {
@@ -26,10 +26,12 @@
     "@storybook/addons": "^5.3.19",
     "@storybook/react": "^5.3.19",
     "@types/jest": "^26.0.4",
+    "@types/react": "^16.9.41",
     "babel-loader": "^8.1.0",
     "jest": "^26.1.0",
     "react": "^16.13.1",
     "react-docgen-typescript-loader": "^3.7.2",
+    "react-polymorphic-box": "^1.1.1",
     "ts-jest": "^26.1.1",
     "ts-loader": "^8.0.0",
     "typescript": "^3.9.6"

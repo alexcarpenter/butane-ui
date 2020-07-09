@@ -9,4 +9,4 @@ export default {
   },
 };
 
-export const Text = () => <Button onClick={action('clicked')}>Hello Button</Button>;
+export const Default = () => <Button onClick={action('clicked')}>Hello Button</Button>;
